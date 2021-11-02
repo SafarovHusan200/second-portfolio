@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+
+    max-width: 700px;
+}
+.text_in{
+    padding-left: 8px;
+}
+
+.asosiy{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.my_name{
+    padding-top: 10px;
+}
+.fa-map-marker-alt{
+    border: 2px solid #7979FF;
+    color: #7979ff;
+    border-radius: 20px;
+    padding: 10px;
+    text-decoration: none;
+    /* font-family: sans-serif; */
+    /* font-weight: 500; */
+    padding-left: 10px;
+}
+.fa-map-marker-alt:hover{
+    background-color: rgb(23,120,242);
+    color: #FFF;
+    /* border: 2px solid #fFF; */
+}
+.my_text{
+    text-align: left;
+    padding-left: 10px;
+    /* font-family: sans-serif; */
+    font-family: 'Raleway', sans-serif;
+    color: #7373aa;
+    font-size: 16px;
+}
+.telegram{
+    font-size: 25px;
+}
+.fab{
+    margin-right: 15px;
+
+    font-size: 35px;
+    color: blue;
+}
+.fa-address-card{
+    margin-right: 15px;
+
+    font-size: 35px;
+    color: blue;
+}
+a{
+    text-decoration: none;
+    transition: 0.3s;
+}
+b{
+    color: rgb(5, 204, 5);
+}
+.border_us{
+    border-right: 1px solid ;
+    margin-right: 10px;
+}
+.alert-info{
+    display: flex;
+}
+a:hover .alert{
+    background-color: rgb(23,120,242);
+    color: #FFF;
+
+}
+a:hover b{
+    background-color: rgb(23,120,242);
+    color: #FFF;
+}
+a:hover .fas{
+    background-color: rgb(23,120,242);
+    color: #FFF;
+}
+a:hover .fab{
+    background-color: rgb(23,120,242);
+    color: #FFF;
+}
+
+@media screen  and (max-width:540px) {
+    .asosiy{
+        flex-direction: column;
+        text-align: center;
+    }
+    .my_text{
+        text-align: center;
+    }
+}
+
+.rasm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+.foto{
+    margin: 20px;
+}
+.foto_one{
+    display: flex;
+}
+.foto_two{
+    display: flex;
+}
+
+@media screen and (max-width: 930px) and (min-width: 490px) {
+    .foto_one{
+        display: grid;
+    }
+    .foto_two{
+        display: grid;
+    }  
+}
+@media screen and (max-width: 489px)  {
+    .rasm{
+        display: grid;
+    }
+    .foto_one{
+        display: grid;
+    }
+    .foto_two{
+        display: grid;
+    }  
+}
